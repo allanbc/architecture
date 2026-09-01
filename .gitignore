@@ -1,0 +1,70 @@
+HELP.md
+.gradle
+.gradle-user/
+.env
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Environment and local configuration ###
+.env.*
+!.env.example
+*.local
+
+### Logs and runtime files ###
+*.log
+logs/
+*.pid
+*.seed
+*.hprof
+hs_err_pid*
+replay_pid*
+
+### Test and analysis reports ###
+test-results/
+reports/
+.scannerwork/
+
+### Temporary files ###
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+### Operating system files ###
+.DS_Store
+Thumbs.db
+Desktop.ini
